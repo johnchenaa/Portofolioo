@@ -115,7 +115,7 @@ const loadmore = document.querySelector(".loadmore-btn");
 let currentItems = 3;
 loadmore.addEventListener("click", () => {
   const elementList = [
-    ...document.querySelectorAll(".certification .content .box"),
+    ...document.querySelectorAll(".project .content .box"),
   ];
 
   for (let i = currentItems; i < currentItems + 3; i++) {
